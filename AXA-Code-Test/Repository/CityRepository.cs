@@ -8,7 +8,7 @@ namespace AXA_Code_Test.Repository
     {
         public ICollection<string> GetCities()
         {
-            ICollection<string> countries = new List<string>
+            return new List<string>
             { 
                 "BANDUNG", 
                 "BANGUI", 
@@ -22,7 +22,6 @@ namespace AXA_Code_Test.Repository
                 "ZHUGHAI", 
                 "ZIBO" 
             };
-            return countries;
         }
     }
 }
