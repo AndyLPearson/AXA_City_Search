@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AXA-Code-Test/1.0.0": {
+        "runtime": {
+          "AXA-Code-Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AXA-Code-Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

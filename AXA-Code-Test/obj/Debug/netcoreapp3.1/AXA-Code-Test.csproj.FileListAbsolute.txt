@@ -1,0 +1,13 @@
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.exe
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.deps.json
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.runtimeconfig.json
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.runtimeconfig.dev.json
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.dll
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\bin\Debug\netcoreapp3.1\AXA-Code-Test.pdb
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.AssemblyInfoInputs.cache
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.AssemblyInfo.cs
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.csproj.CoreCompileInputs.cache
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.dll
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.pdb
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.genruntimeconfig.cache
+C:\Users\Andy\source\repos\AXA-Code-Test\AXA-Code-Test\obj\Debug\netcoreapp3.1\AXA-Code-Test.csprojAssemblyReference.cache
