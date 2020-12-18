@@ -43,10 +43,13 @@ namespace AXA_Code_Test.Classes
                 ConcurrentBag<ICityResult> searchResults = SearchConcurrent(cities, nextCharacterPosition);
              */
 
-            cities.ForEach(x =>
+            cities.ForEach(city =>
             {
-                cityResult.NextCities.Add(x);
-                cityResult.NextLetters.Add(x[nextCharacterPosition].ToString());
+                cityResult.NextCities.Add(city);
+
+                if(city.Length > nextCharacterPosition) {
+                    cityResult.NextLetters.Add(city[nextCharacterPosition].ToString());
+                }                
             });
 
             return cityResult;
