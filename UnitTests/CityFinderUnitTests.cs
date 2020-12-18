@@ -72,6 +72,23 @@ namespace UnitTests
 
         }
 
+        [DataTestMethod]
+        [DynamicData(nameof(TestDataSource.TestDataSource.DynamicDataSources.CityFinder_SameLength_Tests), typeof(TestDataSource.TestDataSource.DynamicDataSources))]
+        public void GivenFullNames_CityFinder_CompletesSuccessfulWithNoIndexErrors(
+            string searchTerm,
+            List<string> countries,
+            ICityResult expectedCityResult)
+        {
+            CountryRepoistoryMock
+                .Setup(x => x.GetCities())
+                .Returns(countries);
+
+            ICityResult result = sut.Search(searchTerm);
+
+            Assert.AreEqual(JsonConvert.SerializeObject(expectedCityResult), JsonConvert.SerializeObject(result));
+
+        }
+
         protected CityFinder CreateCityFinderObject()
         {
             return new CityFinder(CountryRepoistoryMock.Object);

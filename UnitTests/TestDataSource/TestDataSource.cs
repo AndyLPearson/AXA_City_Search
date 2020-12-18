@@ -88,6 +88,70 @@ namespace UnitTests.TestDataSource
                     };
                 }
             }
+
+            public static IEnumerable<object[]> CityFinder_SameLength_Tests
+            {
+                get
+                {
+                    yield return new object[]
+                    {
+                        "City",
+                        new List<string>
+                        {
+                            "CITY"
+                        },
+                        new CityResult
+                        {
+                            NextCities = new List<string>
+                            {
+                                "CITY"
+                            },
+                            NextLetters = new List<string>
+                            {
+                                
+                            }
+                        }
+                    };
+                    yield return new object[]
+                    {
+                        "NeWcAstlE",
+                        new List<string>
+                        {
+                            "NEWCASTLE"
+                        },
+                        new CityResult
+                        {
+                            NextCities = new List<string>
+                            {
+                                "NEWCASTLE"
+                            },
+                            NextLetters = new List<string>
+                            {
+
+                            }
+                        }
+                    };
+                    yield return new object[]
+                    {
+                        "Thornaby",
+                        new List<string>
+                        {
+                            "Thornaby"
+                        },
+                        new CityResult
+                        {
+                            NextCities = new List<string>
+                            {
+                                "Thornaby"
+                            },
+                            NextLetters = new List<string>
+                            {
+
+                            }
+                        }
+                    };
+                }
+            }
         }
     }
 }
